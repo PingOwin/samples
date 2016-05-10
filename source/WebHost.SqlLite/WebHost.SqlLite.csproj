@@ -75,15 +75,15 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="PingOwin.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\PingOwin.0.1.0-beta003\lib\net45\PingOwin.Core.dll</HintPath>
+      <HintPath>..\packages\PingOwin.0.1.0-beta005\lib\net45\PingOwin.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="PingOwin.Core.Frontend, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\PingOwin.0.1.0-beta003\lib\net45\PingOwin.Core.Frontend.dll</HintPath>
+      <HintPath>..\packages\PingOwin.0.1.0-beta005\lib\net45\PingOwin.Core.Frontend.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="PingOwin.Core.Store.SQLite, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\PingOwin.0.1.0-beta003\lib\net45\PingOwin.Core.Store.SQLite.dll</HintPath>
+      <HintPath>..\packages\PingOwin.0.1.0-beta005\lib\net45\PingOwin.Core.Store.SQLite.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Serilog, Version=1.5.0.0, Culture=neutral, PublicKeyToken=24c2f752a8e58a10, processorArchitecture=MSIL">
@@ -103,9 +103,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-    <Content Include="views\Results.sshtml" />
-    <Content Include="views\MasterPage.sshtml" />
-    <Content Include="views\AllPingowins.sshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

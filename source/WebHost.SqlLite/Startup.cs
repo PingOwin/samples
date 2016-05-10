@@ -1,4 +1,5 @@
 ﻿using Microsoft.Owin;
+using Nancy;
 using Owin;
 using PingOwin.Core.Frontend;
 
@@ -10,7 +11,7 @@ namespace WebHost.SqlLite
     {
         public void Configuration(IAppBuilder app)
         {
-            app.UsePingOwinFrontend();
+            app.UsePingOwin();
         }
     }
 }
