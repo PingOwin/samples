@@ -9,7 +9,7 @@ namespace WebHost.Internalized.Sqlite
     {
         public void Configuration(IAppBuilder app)
         {
-
+          
         }
     }
 }
